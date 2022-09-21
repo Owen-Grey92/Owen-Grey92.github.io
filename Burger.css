@@ -1,0 +1,119 @@
+/*colors #F6D62B for the dark yellow #FFEC82 for the light yellow #ED2530 for the red*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#header {
+    background-color: 	#FFEC82;
+    color: #ED2530;
+    margin-left: 225px;
+    padding: 1em;
+    text-align: center;
+    text-shadow: 1px 1px 1px #d4d4d4;
+    font-size:large
+}
+h3 {
+    text-align: center;
+}
+#meet-the-employees {
+    background-color: 	#FFEC82;
+    color: #ED2530;
+    text-shadow: 1px 1px 1px #d4d4d4;
+    margin-left: 225px;
+    padding: 1em;
+    height: 410px;
+    font-size: large;
+}
+footer div {
+    font-style: italic;
+    text-align: center;
+    font-size: small;
+    background-color: 	#FFEC82;
+    color: #ED2530;
+    margin-left: 225px;
+    text-shadow: 1px 1px 1px #d4d4d4;
+    padding-top: 45px;
+    padding-bottom: 19px;
+}
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px #808080;
+    background-color: #E3F2FE;
+    min-height: 875px;
+}
+#bobs-burgers-image {
+    float: right;
+}
+#logo {
+    text-align: center;
+    background-color: #F6D62B;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px #808080;
+    position: relative;
+}
+table {
+    Border: 2px solid #808080;
+    border-collapse: collapse;
+    margin-left: 45px;
+}
+tr:nth-of-type(odd) {
+    background-color: #F6D62B;
+}
+td {
+    padding: 0.5em;
+    border: 2px solid #808080;
+    text-align: center;
+}
+th {
+    padding: 0.5em;
+    border: 2px solid #808080;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 140px;
+}
+.contact {
+    margin-left: 250px;
+}
+nav {
+    font-weight: bold;
+    padding: 2em;
+    font-size: 140%;
+    float: left;
+    width: 128px;
+    background-color: #E3F2FE;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.23em;
+    text-shadow: 2px 2px 2px #808080;
+}
+nav a {
+    text-decoration: none;
+    color: #F6D62B;
+    transition: color 2s linear;
+}
+nav a:visited {
+    color: #F6D62B;
+}
+nav a:hover {
+    color: #ED2530;
+}
